@@ -1,10 +1,6 @@
 package search.sol
 
 object Index {
-  //  val indexPath: String = "/Users/alexwey/Desktop/index.txt"
-  //  val titlePath: String = "/Users/alexwey/Desktop/titles.txt"
-  //  val pageRankPath: String = "/Users/alexwey/Desktop/pageRanks.txt"
-  //  val xmlPath: String = "/Users/alexwey/Desktop/CS18/JAVA Setup/workspace/scalaproject/src/search/src/MedWiki.xml"
   def main(args: Array[String]): Unit = {
     if (args.length == 4) {
       val xmlPath: String = args(0)
