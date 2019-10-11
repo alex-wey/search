@@ -132,24 +132,3 @@ class Repl(val pageRankBool: Boolean) {
     matchesIterator.toList.map(aMatch => aMatch.matched).filter(x => !StopWords.isStopWord(x))
   }
 }
-
-//object replMain {
-//  def main(args: Array[String]): Unit = {
-//    val t0 = System.nanoTime()
-//    val indexPath: String = "/Users/alexwey/Desktop/index.txt"
-//    val titlePath: String = "/Users/alexwey/Desktop/titles.txt"
-//    val pageRankPath: String = "/Users/alexwey/Desktop/pageRanks.txt"
-//    val preProcess = new Preprocess(true)
-//    val indexer = new Indexer()
-//    preProcess.parse("/Users/alexwey/Desktop/CS18/JAVA_Setup/workspace/scalaproject/src/search/src/PageRankWiki.xml")
-//    preProcess.writeTitles(titlePath)
-//    preProcess.writePageRank(pageRankPath)
-//    indexer.fillPMap(preProcess)
-//    indexer.writeIndexer(indexPath)
-//    val t1 = System.nanoTime()
-//    println((t1 - t0) / 1000000000.0)
-//    val repl: Repl = new Repl(true)
-//    repl.initQuery(indexPath, titlePath, pageRankPath)
-//    repl.run()
-//  }
-//}
