@@ -49,7 +49,7 @@ using the TF and IDF calculated by other methods in the class). Then, there is a
 method that writes an index.txt file. Within this file is a list of: a word,
 followed by its corresponding id, followed by its score. Note that every word is
 predicated with a hashtag. This made it easier in code to distinguish between
-words and ids
+words and id's.
 
 The third class is called Querier.scala, which contains methods that read in the
 multiple txt files in order to produce and call upon three HashMaps. The first one
