@@ -18,7 +18,7 @@ search.sol.Query. Before running that command, the user must input three to four
 strings as main arguments:
 
 1. (Optional) A string, either the "--smart" or "-smart" flag or the "-pagerank"
-or "--pagerank" flag. (Note: I decided to allow these strings to have either one
+or "--pagerank" flag. (Note: these strings were decided to have either one
 one "-" or two "--" because eclipse automatically combines "--" into a
 singular dash. Therefore, it is easier to input a single "-" when running through
 Eclipse, while it does not matter when running through the terminal)
@@ -28,7 +28,7 @@ Eclipse, while it does not matter when running through the terminal)
 (Note: if a user does not call "-smart" or "-pagerank" the program ignores the fourth
 argument)
 
-After that, a query will be instantiated, which should take trivial time. Then, the REPL will open and output the results based on either a standard search with or without utilizing the PageRank algorithm (decided by the user's arguments entry). I expect that the Query will only take seconds to run.
+After that, a query will be instantiated, which should take trivial time. Then, the REPL will open and output the results based on either a standard search with or without utilizing the PageRank algorithm (decided by the user's arguments entry). It is expected that the Query will only take seconds to run.
 
 Overview of design
 -
@@ -53,7 +53,7 @@ words and id's.
 
 The third class is called Querier.scala, which contains methods that read in the
 multiple txt files in order to produce and call upon three HashMaps. The first one
-contains words and ISPairs. An ISPair is an object I created in a fourth class called
+contains words and ISPairs. An ISPair is an object created in a fourth class called
 ISPair.scala, which represent a word's id and score (ISPair.id returns the id and
 ISPair.score returns the score). The second one contains titles and their corresponding
 id's. Lastly, the third one contains titles and their corresponding PageRanks.
