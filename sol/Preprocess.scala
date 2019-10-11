@@ -290,20 +290,3 @@ class Preprocess(val pageRankBool: Boolean) {
     }
   }
 }
-
-//object Preprocess1 {
-//  def main(args: Array[String]): Unit = {
-//    //    val test = new Preprocess(true)
-//    //    val tk = "[[hammer]] dog [[dog:bam fuck]] monkey balls [[here|we go]] horsecock"
-//    //    val termsplit = test.tokenize(tk)
-//    ////    for (t <- termsplit)
-//    ////      println(t)
-//    val t0 = System.nanoTime()
-//    val test = new Preprocess(true)
-//    test.parse("/Users/alexwey/Desktop/CS18/JAVA_Setup/workspace/scalaproject/src/search/src/LinkTester.xml")
-//    val t1 = System.nanoTime()
-//    println("Elapsed time: " + ((t1 - t0) / 1000000000.0) + " seconds")
-//    println(test.parseMap)
-//    test.writePageRank("/Users/alexwey/Desktop/pageRanks.txt")
-//  }
-//}
