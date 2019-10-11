@@ -28,11 +28,7 @@ Eclipse, while it does not matter when running through the terminal)
 (Note: if a user does not call "-smart" or "-pagerank" the program ignores the fourth
 argument)
 
-After that, a query will be instantiated, which will take trivial time (MedWiki
-takes around 2 seconds). Then, the REPL will open and output the results based on
-either a standard search with or without utilizing the PageRank algorithm (decided
-by the user's arguments entry). I expect that the Query will only take seconds
-to run.
+After that, a query will be instantiated, which should take trivial time. Then, the REPL will open and output the results based on either a standard search with or without utilizing the PageRank algorithm (decided by the user's arguments entry). I expect that the Query will only take seconds to run.
 
 Overview of design
 -
