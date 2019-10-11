@@ -117,20 +117,3 @@ class Indexer {
     }
   }
 }
-
-//object IndexerMain {
-//  def main(args: Array[String]): Unit = {
-//    val t0 = System.nanoTime()
-//    val test = new Preprocess(true)
-//    val index = new Indexer()
-//    test.parse("/Users/alexwey/Desktop/CS18/JAVA_Setup/workspace/scalaproject/src/search/src/LinkTester.xml")
-//    test.writeTitles("/Users/alexwey/Desktop/titles.txt")
-//    test.writePageRank("/Users/alexwey/Desktop/pageRanks.txt")
-//    index.fillPMap(test)
-//    val fileName: String = "/Users/alexwey/Desktop/index.txt"
-//    index.writeIndexer(fileName)
-//    println(index.indexer)
-//    val t1 = System.nanoTime()
-//    println("Elapsed time: " + ((t1 - t0) / 1000000000.0) + " seconds")
-//  }
-//}
