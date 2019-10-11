@@ -242,29 +242,3 @@ class Querier(val pageRankBool: Boolean) {
     fillQMap(indexPath)
   }
 }
-
-//object QuerierMain {
-//  def main(args: Array[String]): Unit = {
-//    val t0 = System.nanoTime()
-//    val indexPath: String = "/Users/alexwey/Desktop/index.txt"
-//    val titlePath: String = "/Users/alexwey/Desktop/titles.txt"
-//    val pageRankPath: String = "/Users/alexwey/Desktop/pageRanks.txt"
-//    val preProcess = new Preprocess(true)
-//    val indexer = new Indexer()
-//    preProcess.parse("/Users/alexwey/Desktop/CS18/JAVA_Setup/workspace/scalaproject/src/search/src/tester1.xml")
-//    preProcess.writePageRank(pageRankPath)
-//    preProcess.writeTitles(titlePath)
-//    indexer.fillPMap(preProcess)
-//    indexer.writeIndexer(indexPath)
-//    val t1 = System.nanoTime()
-//    val querier = new Querier(false)
-//    querier.fillIdTitle(titlePath)
-//    querier.fillPRMap(pageRankPath)
-//    querier.fillQMap(indexPath)
-//    querier.runQuery(indexPath, titlePath, pageRankPath)
-//    val t2 = System.nanoTime()
-//    println("Elapsed time: " + ((t2 - t1) / 1000000000.0) + " seconds")
-//    println(querier.queryMap)
-//    println(querier.pageRankMap)
-//  }
-//}
