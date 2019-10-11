@@ -68,10 +68,8 @@ score in order to allow an efficient runtime).
 The sixth class is called Index.scala, which is essentially the "main" method for
 Preprocess.scala and Indexer.scala. This method calls on the necessary methods in
 either class in order to index a corpus. Index.scala creates the titles.txt,
-index.txt, and pageRanks.txt files. See part #2 for more information on how the
-Index.scala runs.
+index.txt, and pageRanks.txt files.
 
 Finally, the seventh and last class is called Query.scala, which reads in the
 titles.txt, index.txt, and pageRanks.txt files created by the Index.scala class
-and instantiates the REPL. See part #2 for more information on how the
-Query.scala runs.
+and instantiates the REPL.
