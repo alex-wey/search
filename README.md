@@ -11,7 +11,7 @@ command, the user must input four strings as main arguments:
 4. A path to the the pageRank.txt file that should be written.
 
 This will create the necessary files in order to run the query through the search
-engine at a faster runtime. (Note: MedWiki.xml takes roughly 60 seconds to index)
+engine at a faster runtime.
 
 To enter a query into the search engine, a user has to enter the command: "scala
 search.sol.Query. Before running that command, the user must input three to four
