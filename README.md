@@ -35,16 +35,16 @@ Overview of design
 The Search program is divided into several classes:
 
 The first class is called Preprocess.scala, which contains methods that help parse
-the corpus for the id's, titles, and texts of each page (which are then stored in
+the corpus for the IDs, titles, and texts of each page (which are then stored in
 a double HashMap). This class also contains essential methods that implement the
 PageRank algorithm that ultimately store the weights of each page in a double HashMap.
 In this class are two other methods that write a titles.txt file and a pageRank.txt
 file. The titles.txt file simply is a list of all the titles and their respective
-id's in the corpus and the pageRank.txt file contains a list of each title and its
+IDs in the corpus and the pageRank.txt file contains a list of each title and its
 page rank.
 
 The second class is called Indexer.scala, which contains methods that produce a
-HashMap, containing the id's, words, and corresponding scores (which are calculated
+HashMap, containing the IDs, words, and corresponding scores (which are calculated
 using the TF and IDF calculated by other methods in the class). Then, there is a
 method that writes an index.txt file. Within this file is a list of: a word,
 followed by its corresponding id, followed by its score. Note that every word is
