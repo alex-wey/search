@@ -1,4 +1,4 @@
-Instructions for use
+Instructions
 -
 To interact with the program, a user has to open terminal, cd to the scalaproject
 folder, compile by running the command: "scalac -d bin s*/search/*/*.scala", cd
